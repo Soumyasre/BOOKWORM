@@ -1,0 +1,190 @@
+/* styles.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.font{
+    font-size: 72;
+    font-style: italic;
+    color:antiquewhite;
+    padding:0%;
+    background-color: black;
+    padding: 20px;
+    margin:0;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    color:antiquewhite;
+}
+
+h1 {
+    font-size: 72;
+}
+body {
+    font-size: 72;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    justify-content: left;
+    align-items: center;
+    color:antiquewhite;
+    background-color: rgb(65, 65, 63);
+    padding: 20px 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+ul li a {
+    color: white;
+    text-decoration: pink;
+    font-style: italic;
+}
+/* Add this to your existing CSS or in a separate stylesheet */
+
+.cart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; 
+    font-size: 50px; /* Optional: Add a pointer cursor to indicate it's clickable */
+}
+#banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.main1{
+    background-color: #333;
+}
+.container1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:black;
+    margin:20px 20px 20px 20px;
+}
+.text1{
+    font-size: 20px;
+    padding-left: 20px;
+    color:antiquewhite
+}
+
+.image1{
+    padding:10px;
+    border:5px solid white;
+    box-shadow: rgb(45, 45, 42);
+}
+.text-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    font-size: 18px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(78, 75, 75, 0.5);
+}
+.text2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:rgb(53, 52, 54);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.image2{
+padding-left:px;
+width:fit-content;
+width:500px;
+display: flex;
+}
+.serv{
+    background-color: antiquewhite;
+}
+.service1{
+    position: relative;
+    display: inline-block;
+    padding:0;
+    background-color: bisque;
+}
+.service2{
+    position: relative;
+    display: inline-block;
+    padding:0;
+}
+.image3{
+    padding-right: 5px;
+    display:flex;
+    width:500px;
+    width: fit-content;
+}
+.block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(78, 75, 75, 0.5);
+    padding: 5px;
+    font-size: 18px;
+   
+}
+.abcon{
+    align-items: center;
+    padding-right: 200px;
+    background-color: black;
+}
+.img{
+    align-items: center;
+    padding-left: 260px;
+}
+
+.txt{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+    scroll-padding-bottom: 200px;
+    padding-left:200px
+    
+}
+.foot{
+    display: flexbox;
+     background-color: #0e0d0d;
+      padding: 50px;
+       text-align: center;
+       align-items: center; 
+       color:antiquewhite;
+}
+.con{
+    text-align:center;
+    background-color: #0e0d0d;
+    color:antiquewhite;
+}
+.hl{
+    align-items: center;
+}
+.txt1{
+    text-align: center;
+}
+.faq{
+    background-color: black;
+    color: beige;
+}
